@@ -1,16 +1,31 @@
 package io.github.emersonl33.productsapi.model;
 
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "products")
 public class Product {
-    private String id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(name = "id")
+    private Long id;
+
+    @Column(name = "productName")
     private String productName;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "price")
     private double price;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
