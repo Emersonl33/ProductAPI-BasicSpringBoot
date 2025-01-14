@@ -60,7 +60,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 	</dependencies>
+=======
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+    </dependencies>
+>>>>>>> 86d2c8cdc05a4fe930ac465ee4d654963b3c747d
 
 	<build>
 		<plugins>
