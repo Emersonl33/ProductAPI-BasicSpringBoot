@@ -5,7 +5,7 @@
 **Welcome to the world of Spring Boot!** 🚀 This project implements a product list with CRUD operations (Create, Read, Update, Delete) in a REST API.
 
 ### What do we have here? 🤔
-- Building your first REST API.
+- Build the first REST API.
 - Connecting to a database (H2, for testing and development).
 - Using the power of Spring Data JPA to interact with the database.
 
